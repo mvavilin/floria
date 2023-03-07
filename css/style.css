@@ -1,3 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+body {
+  font-family: "Montserrat", "Verdana", sans-serif;
+}
 
+.item {
+  transition: all 0.3s ease-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  color: #16161d;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: normal;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #16161d;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-image {
+  display: block;
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.company-name {
+  color: #20C997;
+  padding: 0 1.5rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header {
+  padding: 2rem 0;
+  box-shadow: 0 0 1rem #bebebe;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  width: 55rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  white-space: nowrap;
+  cursor: pointer;
+  margin-right: 1.5rem;
+}
+.item:last-child {
+  margin-right: 0;
+}
+
+.active {
+  color: #20C997;
+}
+
+.item:hover {
+  color: #20C997;
+}
+
+.wrapper {
+  max-width: 144rem;
+  margin: auto;
+  padding: 0 10rem;
+}
 
 /*# sourceMappingURL=style.css.map */

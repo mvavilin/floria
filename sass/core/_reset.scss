@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px !important;
+    scroll-behavior: smooth;
+}
+
+body{
+    text-rendering: optimizeSpeed;
+    color: $color-default;
+    @extend %font-primary;
+    @include font;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $color-default;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}

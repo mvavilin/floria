@@ -1,0 +1,21 @@
+.nav {
+    width: 55rem;
+}
+.menu {
+    @include flex;
+}
+.item {
+    white-space: nowrap;
+    cursor: pointer;
+    @extend %transition;
+    margin-right: $safe-margin-size;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.active {
+    color: $color-main;
+}
+.item:hover {
+    color: $color-main;
+}

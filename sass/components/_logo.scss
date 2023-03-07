@@ -1,0 +1,13 @@
+.logo {
+    @include flex;
+}
+.logo-image {
+    display: block;
+    width: $logo-size;
+    height: $logo-size;
+}
+.company-name {
+    color: $color-main;
+    padding: 0 $safe-margin-size;
+    @include font($size: 2.4rem, $weight: 700);
+}

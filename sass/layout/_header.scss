@@ -1,0 +1,7 @@
+.header {
+    padding: $internal-vertical-indent-size 0;
+    box-shadow: 0 0 1rem $color-shadow;
+}
+.header-wrapper {
+    @include flex;
+}
